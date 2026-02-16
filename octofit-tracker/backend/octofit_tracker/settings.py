@@ -43,6 +43,11 @@ else:
         '*.app.github.dev',
     ]
 
+# Trust X-Forwarded-Proto header for HTTPS detection (GitHub Codespace uses proxy)
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_X_FORWARDED_HOST = True
+USE_X_FORWARDED_PORT = True
+
 
 # Application definition
 
