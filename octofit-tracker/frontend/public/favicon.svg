@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background -->
+  <circle cx="50" cy="50" r="50" fill="#667eea"/>
+  
+  <!-- Octopus head (simplified) -->
+  <circle cx="50" cy="40" r="20" fill="#764ba2"/>
+  
+  <!-- Eyes -->
+  <circle cx="45" cy="37" r="3" fill="white"/>
+  <circle cx="55" cy="37" r="3" fill="white"/>
+  
+  <!-- Tentacles (simplified as waves) -->
+  <path d="M 35 55 Q 30 70 35 85" stroke="#764ba2" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 50 58 Q 50 75 50 85" stroke="#764ba2" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 65 55 Q 70 70 65 85" stroke="#764ba2" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Fitness accent - dumbbells -->
+  <circle cx="25" cy="25" r="4" fill="#ffc107"/>
+  <circle cx="75" cy="25" r="4" fill="#ffc107"/>
+</svg>
